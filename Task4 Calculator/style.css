@@ -1,6 +1,12 @@
+html{
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #cce6ff 50%, #E4E9FD 50%);
+    min-height: 1000px;
+}
+
 .container{
     text-align: center;
-    margin-top:23px
+    margin-top:23px;
     
 }
 
@@ -10,7 +16,7 @@ table{
 
 input{
     border-radius: 69px;
-    border: 1.5mm ridge #cce6ff;;
+    border: 1.5mm ridge #cce6ff;
     background-color: #E8E8E8;
     font-size:20px;
     height: 31px;
@@ -33,10 +39,12 @@ button{
 .calculator{ 
     border: 2.8mm ridge #cce6ff;;
     background-color: #ffff;
+    margin: 55px auto;
     padding: 20px;
     border-radius: 53px;
     height: 470px;
     display: inline-block;
+    box-shadow :rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     
 }
 
